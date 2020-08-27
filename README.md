@@ -17,4 +17,4 @@ We are going to use Twilio account to send messages to Whatsapp.
 4. Connect your whatsapp and you can see Account_SID and authentication token which we will be using in the program
 
 ## Run the program 
-![Screenshot](../img/Capture.PNG)
+![Screenshot](https://github.com/jayparmar16/covid-tracker/blob/master/img/Capture.PNG)
