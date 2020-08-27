@@ -116,11 +116,11 @@ else:
 #Function to send whatsapp message using Twilio
 
 def send_whatsapp_message(msg):
-    account_sid = 'AC2837e41794e450ef88925f85a46a6508'
-    auth_token = '051928be54ee7522d8f98707f40e1525'
+    account_sid = '(your account sid)'
+    auth_token = '(auth token)'
     Client(account_sid, auth_token).messages.create(
-        from_='whatsapp:+14155238886',
-        to='whatsapp:+916353991474',
+        from_='whatsapp:(given in twilio dashboard)',
+        to='whatsapp:(your whatsapp number)',
         body=msg
     )
 
